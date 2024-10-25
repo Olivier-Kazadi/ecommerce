@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Panier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Panier</h1>
+    </header>
+    <main>
+        <table id="cartTable">
+            <thead>
+                <tr>
+                    <th>Produit</th>
+                    <th>Quantité</th>
+                    <th>Prix</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Articles du panier seront insérés ici dynamiquement -->
+                <tr>
+                    <td>Produit 1</td>
+                    <td>1</td>
+                    <td>20€</td>
+                    <td><button class="remove">Retirer</button></td>
+                </tr>
+                <tr>
+                    <td>Produit 2</td>
+                    <td>2</td>
+                    <td>60€</td>
+                    <td><button class="remove">Retirer</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Total: 80€</h2>
+        <button id="checkout">Passer à la caisse</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Boutique en ligne</p>
+    </footer>
+</body>
+</html>
